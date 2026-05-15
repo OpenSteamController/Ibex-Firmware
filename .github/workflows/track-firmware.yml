@@ -1,0 +1,44 @@
+name: Track Ibex firmware
+
+on:
+  workflow_dispatch:
+  schedule:
+    # SteamTracking's own cron is `0 9,12,15,18,21 Mon-Fri` and `0 0,12 Sat-Sun`
+    # in America/Los_Angeles. We run ~30 minutes later.
+    - cron: '30 9,12,15,18,21 * * 1-5'
+      timezone: 'America/Los_Angeles'
+    - cron: '30 0,12 * * 0,6'
+      timezone: 'America/Los_Angeles'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: track-firmware
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - id: run
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/ibex_firmware.py check
+
+      - name: Commit and push
+        if: steps.run.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          git config user.name  'ibex-firmware-bot'
+          git config user.email 'ibex-firmware-bot@users.noreply.github.com'
+          git add Controller Puck index.json
+          msg="$(python tools/ibex_firmware.py last-commit-message)"
+          git commit -m "$msg"
+          git push
