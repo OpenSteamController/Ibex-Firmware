@@ -1,12 +1,12 @@
 {
   "_channels": {
     "publicbeta": {
-      "last_check_at": "2026-05-22T23:36:34Z",
-      "last_check_commit": "ea5980e504116f5378dda300a329edac38f83e2b"
+      "last_check_at": "2026-05-29T05:42:26Z",
+      "last_check_commit": "01bf1e6bc3bdf2653eaa79547c79a1f1fbf765db"
     },
     "stable": {
-      "last_check_at": "2026-05-23T04:55:07Z",
-      "last_check_commit": "5f58a47e565a26b9f4d65814d3d3f0ece24d306b"
+      "last_check_at": "2026-05-29T05:42:24Z",
+      "last_check_commit": "df016d982cd5f0aa2106d509f4159df461dbb5c2"
     }
   },
   "_zips_seen": {
@@ -59,6 +59,19 @@
       "members": [
         "IBEX_FW_6A05E8CE.fw",
         "PROTEUS_FW_6A05E8B8.fw"
+      ]
+    },
+    "bins_hardware_all.zip.154ceb2c00ea0a6e48d13873aae6f61d774a3d52": {
+      "first_seen": {
+        "publicbeta": {
+          "commit": "01bf1e6bc3bdf2653eaa79547c79a1f1fbf765db",
+          "date": "2026-05-29T05:08:22Z",
+          "steam_version": "1780020862"
+        }
+      },
+      "members": [
+        "IBEX_FW_6A18C27C.fw",
+        "PROTEUS_FW_6A18C280.fw"
       ]
     },
     "bins_hardware_all.zip.1d7ad5c7410014ded7f6ca01f953e35fb8b82f89": {
@@ -661,6 +674,24 @@
       ],
       "version_hex": "6A1091CE",
       "version_unix": 1779470798
+    },
+    "IBEX_FW_6A18C27C.fw": {
+      "crc32": "eb67c263",
+      "file_size": 352240,
+      "first_seen": {
+        "publicbeta": {
+          "commit": "01bf1e6bc3bdf2653eaa79547c79a1f1fbf765db",
+          "date": "2026-05-29T05:08:22Z",
+          "steam_version": "1780020862"
+        }
+      },
+      "payload_size": 352208,
+      "sha256": "26c090e20bdccd2c9ced08b2c4e86fef6bc5ebfcfe947613c5eb9c6730c07630",
+      "source_zips": [
+        "bins_hardware_all.zip.154ceb2c00ea0a6e48d13873aae6f61d774a3d52"
+      ],
+      "version_hex": "6A18C27C",
+      "version_unix": 1780007548
     }
   },
   "crc32_index": {
@@ -754,6 +785,11 @@
       "path": "Controller/IBEX_FW_69E687A0.fw",
       "version_hex": "69E687A0"
     },
+    "8177f608": {
+      "category": "puck",
+      "path": "Puck/PROTEUS_FW_6A18C280.fw",
+      "version_hex": "6A18C280"
+    },
     "84e6b9ca": {
       "category": "controller",
       "path": "Controller/IBEX_FW_697D2B17.fw",
@@ -829,6 +865,11 @@
       "path": "Puck/PROTEUS_FW_69E687A0.fw",
       "version_hex": "69E687A0"
     },
+    "eb67c263": {
+      "category": "controller",
+      "path": "Controller/IBEX_FW_6A18C27C.fw",
+      "version_hex": "6A18C27C"
+    },
     "fcb92dd2": {
       "category": "puck",
       "path": "Puck/PROTEUS_FW_697D2B40.fw",
@@ -845,7 +886,7 @@
       "version_hex": "6A0E0230"
     }
   },
-  "generated_at": "2026-05-23T04:55:08Z",
+  "generated_at": "2026-05-29T05:42:26Z",
   "puck": {
     "PROTEUS_FW_691CFEB0.fw": {
       "crc32": "90b72b3a",
@@ -1186,6 +1227,24 @@
       ],
       "version_hex": "6A1091CF",
       "version_unix": 1779470799
+    },
+    "PROTEUS_FW_6A18C280.fw": {
+      "crc32": "8177f608",
+      "file_size": 195428,
+      "first_seen": {
+        "publicbeta": {
+          "commit": "01bf1e6bc3bdf2653eaa79547c79a1f1fbf765db",
+          "date": "2026-05-29T05:08:22Z",
+          "steam_version": "1780020862"
+        }
+      },
+      "payload_size": 195396,
+      "sha256": "ebc0069e8cc93672910c09c716012a3ab33f019a50d5c6ee3d5a05cf1a8c65db",
+      "source_zips": [
+        "bins_hardware_all.zip.154ceb2c00ea0a6e48d13873aae6f61d774a3d52"
+      ],
+      "version_hex": "6A18C280",
+      "version_unix": 1780007552
     }
   }
 }
