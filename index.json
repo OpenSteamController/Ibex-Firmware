@@ -5,8 +5,8 @@
       "last_check_commit": "385fcd8b09e17036d02b46566805e2de9186d0f5"
     },
     "stable": {
-      "last_check_at": "2026-07-01T05:57:01Z",
-      "last_check_commit": "bc07c53ad22c34f43e2280adb42cbc9d143d5c44"
+      "last_check_at": "2026-07-22T04:40:27Z",
+      "last_check_commit": "5e6cfd627a44f2ee384959ab3c3b7a54a8165164"
     }
   },
   "_zips_seen": {
@@ -136,6 +136,11 @@
         "publicbeta": {
           "commit": "385fcd8b09e17036d02b46566805e2de9186d0f5",
           "date": "2026-07-21T22:50:21Z",
+          "steam_version": "1784669098"
+        },
+        "stable": {
+          "commit": "5e6cfd627a44f2ee384959ab3c3b7a54a8165164",
+          "date": "2026-07-21T23:40:42Z",
           "steam_version": "1784669098"
         }
       },
@@ -902,6 +907,11 @@
           "commit": "8ee99c97e529aaedde113faa5e1dcd213a99d95b",
           "date": "2026-07-09T02:11:11Z",
           "steam_version": "1783556394"
+        },
+        "stable": {
+          "commit": "5e6cfd627a44f2ee384959ab3c3b7a54a8165164",
+          "date": "2026-07-21T23:40:42Z",
+          "steam_version": "1784669098"
         }
       },
       "payload_size": 384540,
@@ -1156,7 +1166,7 @@
       "version_hex": "6A0E0230"
     }
   },
-  "generated_at": "2026-07-21T23:25:58Z",
+  "generated_at": "2026-07-22T04:40:28Z",
   "puck": {
     "PROTEUS_FW_691CFEB0.fw": {
       "crc32": "90b72b3a",
