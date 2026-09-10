@@ -1,12 +1,12 @@
 {
   "_channels": {
     "publicbeta": {
-      "last_check_at": "2026-09-02T06:00:23Z",
-      "last_check_commit": "d174309ad45eec0f2adf607498ef4ead29383d49"
+      "last_check_at": "2026-09-10T00:21:25Z",
+      "last_check_commit": "ace2c5488e0436883cae420e183dc1d6b50256f4"
     },
     "stable": {
-      "last_check_at": "2026-09-02T06:00:20Z",
-      "last_check_commit": "c4474508af1bdf980fa22c43fc6331a1f09f867f"
+      "last_check_at": "2026-09-10T00:21:23Z",
+      "last_check_commit": "bbc717da8ddd35ac9a091eb87664ae06d64c7145"
     }
   },
   "_zips_seen": {
@@ -165,6 +165,19 @@
       "members": [
         "IBEX_FW_6A4D85E3.fw",
         "PROTEUS_FW_6A4423DE.fw"
+      ]
+    },
+    "bins_hardware_all.zip.40e334d31e08a300abc9e6ab561091fb2830daf0": {
+      "first_seen": {
+        "publicbeta": {
+          "commit": "ace2c5488e0436883cae420e183dc1d6b50256f4",
+          "date": "2026-09-09T23:43:43Z",
+          "steam_version": "1788989629"
+        }
+      },
+      "members": [
+        "IBEX_FW_6A628345.fw",
+        "PROTEUS_FW_6A628359.fw"
       ]
     },
     "bins_hardware_all.zip.4a68c56fd0a61718862c3b6b5ddc905527517203": {
@@ -990,7 +1003,8 @@
       "payload_size": 384444,
       "sha256": "865b4a7b1786c4a9990375759548331d313170c3e3b4c5897e16dc01b9ab12a8",
       "source_zips": [
-        "bins_hardware_all.zip.0f397d26ddd470318a9dfd8ba019f6e64bb53875"
+        "bins_hardware_all.zip.0f397d26ddd470318a9dfd8ba019f6e64bb53875",
+        "bins_hardware_all.zip.40e334d31e08a300abc9e6ab561091fb2830daf0"
       ],
       "version_hex": "6A628345",
       "version_unix": 1784841029
@@ -1253,7 +1267,7 @@
       "version_hex": "6A0E0230"
     }
   },
-  "generated_at": "2026-09-02T06:00:23Z",
+  "generated_at": "2026-09-10T00:21:25Z",
   "puck": {
     "PROTEUS_FW_691CFEB0.fw": {
       "crc32": "90b72b3a",
@@ -1722,7 +1736,8 @@
       "payload_size": 197976,
       "sha256": "b84853fec0d40c9dfe7948a4d37cbbf17e58f60962897f3ba5bda867253a6934",
       "source_zips": [
-        "bins_hardware_all.zip.0f397d26ddd470318a9dfd8ba019f6e64bb53875"
+        "bins_hardware_all.zip.0f397d26ddd470318a9dfd8ba019f6e64bb53875",
+        "bins_hardware_all.zip.40e334d31e08a300abc9e6ab561091fb2830daf0"
       ],
       "version_hex": "6A628359",
       "version_unix": 1784841049
