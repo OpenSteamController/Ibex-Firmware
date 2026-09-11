@@ -1,8 +1,8 @@
 {
   "_channels": {
     "publicbeta": {
-      "last_check_at": "2026-09-10T00:21:25Z",
-      "last_check_commit": "ace2c5488e0436883cae420e183dc1d6b50256f4"
+      "last_check_at": "2026-09-11T06:11:43Z",
+      "last_check_commit": "8e6d608a06315a732c0122c940b232ef558a329e"
     },
     "stable": {
       "last_check_at": "2026-09-10T00:21:23Z",
@@ -429,6 +429,19 @@
       "members": [
         "IBEX_FW_6A3F2424.fw",
         "PROTEUS_FW_6A3F2420.fw"
+      ]
+    },
+    "bins_hardware_all.zip.ff20d8eee360c5ab7bf18b8ee6829d907f20794d": {
+      "first_seen": {
+        "publicbeta": {
+          "commit": "8e6d608a06315a732c0122c940b232ef558a329e",
+          "date": "2026-09-11T01:15:22Z",
+          "steam_version": "1789086785"
+        }
+      },
+      "members": [
+        "IBEX_FW_6A628345.fw",
+        "PROTEUS_FW_6A628359.fw"
       ]
     },
     "bins_hardware_all.zip.ff227fe36ecc878f0706920c204f9e60cc593340": {
@@ -1004,7 +1017,8 @@
       "sha256": "865b4a7b1786c4a9990375759548331d313170c3e3b4c5897e16dc01b9ab12a8",
       "source_zips": [
         "bins_hardware_all.zip.0f397d26ddd470318a9dfd8ba019f6e64bb53875",
-        "bins_hardware_all.zip.40e334d31e08a300abc9e6ab561091fb2830daf0"
+        "bins_hardware_all.zip.40e334d31e08a300abc9e6ab561091fb2830daf0",
+        "bins_hardware_all.zip.ff20d8eee360c5ab7bf18b8ee6829d907f20794d"
       ],
       "version_hex": "6A628345",
       "version_unix": 1784841029
@@ -1267,7 +1281,7 @@
       "version_hex": "6A0E0230"
     }
   },
-  "generated_at": "2026-09-10T00:21:25Z",
+  "generated_at": "2026-09-11T06:11:43Z",
   "puck": {
     "PROTEUS_FW_691CFEB0.fw": {
       "crc32": "90b72b3a",
@@ -1737,7 +1751,8 @@
       "sha256": "b84853fec0d40c9dfe7948a4d37cbbf17e58f60962897f3ba5bda867253a6934",
       "source_zips": [
         "bins_hardware_all.zip.0f397d26ddd470318a9dfd8ba019f6e64bb53875",
-        "bins_hardware_all.zip.40e334d31e08a300abc9e6ab561091fb2830daf0"
+        "bins_hardware_all.zip.40e334d31e08a300abc9e6ab561091fb2830daf0",
+        "bins_hardware_all.zip.ff20d8eee360c5ab7bf18b8ee6829d907f20794d"
       ],
       "version_hex": "6A628359",
       "version_unix": 1784841049
