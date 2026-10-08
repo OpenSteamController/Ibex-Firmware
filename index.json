@@ -1,8 +1,8 @@
 {
   "_channels": {
     "publicbeta": {
-      "last_check_at": "2026-10-02T10:36:30Z",
-      "last_check_commit": "3dd6737b71eac0765e0ee8898298c7259e334620"
+      "last_check_at": "2026-10-08T02:05:58Z",
+      "last_check_commit": "a49f786070d7878cb1ff780412fdaa34f292042a"
     },
     "stable": {
       "last_check_at": "2026-09-10T00:21:23Z",
@@ -359,6 +359,19 @@
       "members": [
         "IBEX_FW_6A4D85E3.fw",
         "PROTEUS_FW_6A4423DE.fw"
+      ]
+    },
+    "bins_hardware_all.zip.c52878402b36211c3c356c9f4d672aed6e024512": {
+      "first_seen": {
+        "publicbeta": {
+          "commit": "a49f786070d7878cb1ff780412fdaa34f292042a",
+          "date": "2026-10-08T01:30:47Z",
+          "steam_version": "1791415817"
+        }
+      },
+      "members": [
+        "IBEX_FW_6AC686B3.fw",
+        "PROTEUS_FW_6AC6869B.fw"
       ]
     },
     "bins_hardware_all.zip.cbce77b1f8c263c26e2af78e68a1d81736432a8e": {
@@ -1084,6 +1097,24 @@
       ],
       "version_hex": "6ABC4999",
       "version_unix": 1790724505
+    },
+    "IBEX_FW_6AC686B3.fw": {
+      "crc32": "bf9a4b4e",
+      "file_size": 422616,
+      "first_seen": {
+        "publicbeta": {
+          "commit": "a49f786070d7878cb1ff780412fdaa34f292042a",
+          "date": "2026-10-08T01:30:47Z",
+          "steam_version": "1791415817"
+        }
+      },
+      "payload_size": 422584,
+      "sha256": "3a99982088e28b532680f78ac9834bf32217187434de29e89f773f406eca5055",
+      "source_zips": [
+        "bins_hardware_all.zip.c52878402b36211c3c356c9f4d672aed6e024512"
+      ],
+      "version_hex": "6AC686B3",
+      "version_unix": 1791395507
     }
   },
   "crc32_index": {
@@ -1302,6 +1333,16 @@
       "path": "Puck/PROTEUS_FW_69850FF3.fw",
       "version_hex": "69850FF3"
     },
+    "bf9a4b4e": {
+      "category": "controller",
+      "path": "Controller/IBEX_FW_6AC686B3.fw",
+      "version_hex": "6AC686B3"
+    },
+    "c39e64ea": {
+      "category": "puck",
+      "path": "Puck/PROTEUS_FW_6AC6869B.fw",
+      "version_hex": "6AC6869B"
+    },
     "c4f33afc": {
       "category": "controller",
       "path": "Controller/IBEX_FW_6941BF08.fw",
@@ -1358,7 +1399,7 @@
       "version_hex": "6A0E0230"
     }
   },
-  "generated_at": "2026-10-02T10:36:30Z",
+  "generated_at": "2026-10-08T02:05:58Z",
   "puck": {
     "PROTEUS_FW_691CFEB0.fw": {
       "crc32": "90b72b3a",
@@ -1852,6 +1893,24 @@
       ],
       "version_hex": "6ABC4988",
       "version_unix": 1790724488
+    },
+    "PROTEUS_FW_6AC6869B.fw": {
+      "crc32": "c39e64ea",
+      "file_size": 172956,
+      "first_seen": {
+        "publicbeta": {
+          "commit": "a49f786070d7878cb1ff780412fdaa34f292042a",
+          "date": "2026-10-08T01:30:47Z",
+          "steam_version": "1791415817"
+        }
+      },
+      "payload_size": 172924,
+      "sha256": "bc743790b60050354c01080107068bf33516d03830b406cfc9fd5179570ff596",
+      "source_zips": [
+        "bins_hardware_all.zip.c52878402b36211c3c356c9f4d672aed6e024512"
+      ],
+      "version_hex": "6AC6869B",
+      "version_unix": 1791395483
     }
   }
 }
