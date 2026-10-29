@@ -1,8 +1,8 @@
 {
   "_channels": {
     "publicbeta": {
-      "last_check_at": "2026-10-22T00:45:31Z",
-      "last_check_commit": "3ee5e72be8d4d4f5ab586407d8ab1766d53d3d4c"
+      "last_check_at": "2026-10-29T01:52:51Z",
+      "last_check_commit": "16135065cd78f5a14ad9e424f0ee184709d0df3b"
     },
     "stable": {
       "last_check_at": "2026-10-22T00:45:30Z",
@@ -351,6 +351,19 @@
       "members": [
         "IBEX_FW_69B9EE01.fw",
         "PROTEUS_FW_69B9EE2D.fw"
+      ]
+    },
+    "bins_hardware_all.zip.adf2971cbc924792cd4c0604977b8517d9f578f6": {
+      "first_seen": {
+        "publicbeta": {
+          "commit": "16135065cd78f5a14ad9e424f0ee184709d0df3b",
+          "date": "2026-10-29T01:29:06Z",
+          "steam_version": "1793235415"
+        }
+      },
+      "members": [
+        "IBEX_FW_6ADFB8D0.fw",
+        "PROTEUS_FW_6AC6869B.fw"
       ]
     },
     "bins_hardware_all.zip.afd2035430a260067dba4f11bb882b53bc4dd621": {
@@ -1166,6 +1179,24 @@
       ],
       "version_hex": "6ACFF323",
       "version_unix": 1792013091
+    },
+    "IBEX_FW_6ADFB8D0.fw": {
+      "crc32": "df9becc2",
+      "file_size": 422804,
+      "first_seen": {
+        "publicbeta": {
+          "commit": "16135065cd78f5a14ad9e424f0ee184709d0df3b",
+          "date": "2026-10-29T01:29:06Z",
+          "steam_version": "1793235415"
+        }
+      },
+      "payload_size": 422772,
+      "sha256": "330473552911bdad34423b1ad462f470c9805a9ff8976c1b20540c127aed8156",
+      "source_zips": [
+        "bins_hardware_all.zip.adf2971cbc924792cd4c0604977b8517d9f578f6"
+      ],
+      "version_hex": "6ADFB8D0",
+      "version_unix": 1793046736
     }
   },
   "crc32_index": {
@@ -1424,6 +1455,11 @@
       "path": "Controller/IBEX_FW_6A18D057.fw",
       "version_hex": "6A18D057"
     },
+    "df9becc2": {
+      "category": "controller",
+      "path": "Controller/IBEX_FW_6ADFB8D0.fw",
+      "version_hex": "6ADFB8D0"
+    },
     "eae3b351": {
       "category": "controller",
       "path": "Controller/IBEX_FW_6A4440DD.fw",
@@ -1455,7 +1491,7 @@
       "version_hex": "6A0E0230"
     }
   },
-  "generated_at": "2026-10-22T00:45:31Z",
+  "generated_at": "2026-10-29T01:52:51Z",
   "puck": {
     "PROTEUS_FW_691CFEB0.fw": {
       "crc32": "90b72b3a",
@@ -1969,6 +2005,7 @@
       "sha256": "bc743790b60050354c01080107068bf33516d03830b406cfc9fd5179570ff596",
       "source_zips": [
         "bins_hardware_all.zip.58d828f4b4d9969be201b7731579a74bae0c3ea8",
+        "bins_hardware_all.zip.adf2971cbc924792cd4c0604977b8517d9f578f6",
         "bins_hardware_all.zip.c52878402b36211c3c356c9f4d672aed6e024512"
       ],
       "version_hex": "6AC6869B",
